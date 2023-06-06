@@ -1,0 +1,70 @@
+TSA 2022-2023 Software Development Project: SFHS Tracker
+
+This original program will track student participation and attendance at school events. Administrators can create events
+and students can register for events. Students gain points (set by administrators) after the event date is over.
+There is also a built-in messaging system.
+
+Advanced program features:
+1. Changing the backup folder:
+. Name a folder called "backup_files" and place it where you want all backup files to be saved
+. Copy the path of the folder
+. Replace the path from line 105 of main.py to the path you copied (every computer needing a path change will need this 
+	process done)
+
+2. Customizing the Output Report
+. Change the threshold and award in the settings page as an administrator as neccessary
+. Go to the leaderboard in the home page as an administrator
+. All changes made will be dynamically displayed on the leaderboard
+
+Getting started as an administrator:
+ 1. Log in to the program as an administrator (ID: 123167, Password: demopass)
+ 2. Add students to the database by going to the student control page and adding the information for each student
+ 3. Add events using the events page.
+ 4. Track student progress by checking the leaderboard in the home page.
+ 5. Notify students using the message board in the notification page.
+ 4. Customize the experience using the settings page.
+ 5. To activate interactive help mode, toggle the "help switch".
+
+Getting started as a student:
+ 1. Log in using the ID and Password given by your administrator (default id: 123167, default password: studpass)
+ 2. Register for events in the home page.
+ 3. Check notifications from your administrator in the notifications page.
+ 4. Customize your user experience using the settings page.
+
+Licenses and Versioning
+. PyCharm Community Edition 2021.2
+. MySQL Workbench 8.0 CE
+. Packages:     Babel Version 2.10.3
+		Pillow Version 9.2.0
+		customtkinter version 4.6.3
+		darkdetect version 0.7.1
+ 		future version 0.18.2
+		mysql-connector version 2.2.9
+		mysql-connector-python version 8.0.30
+		pip version 21.1.2
+		protobuf version 3.20.1
+		pytz version 2022.2.1
+		setuptools version 57.0.0
+		tkcalendar version 1.6.1
+		wheel 0.36.2
+
+
+Copyright Information
+
+home.png is downloaded from https://www.flaticon.com/free-icons/home; CC BY 3.0 License: https://creativecommons.org/licenses/by/3.0/
+no changes were made; the licensor (Dave Gandy Fill) does not endorse my use of the icon; icon was used as a button to go to the home page
+
+calendar.png is downloaded from https://www.flaticon.com/free-icons/calendar"; Free for personal and commercial purpose with attribution; no changes were made
+the licensor (Freepik) does not endorse my use of the icon; icon was used as a button to go to the events page
+
+leaderboard.png is downloaded from https://www.flaticon.com/free-icons/leaderboard; Free for personal and commercial purpose with attribution; no changes were made
+the licensor (Freepik) does not endorse my use of the icon; icon was used as a button to go to the leaderboard page
+
+bell.png is downloaded from https://www.flaticon.com/free-icons/alarm; Free for personal and commercial purpose with attribution; no changes were made
+the licensor (Freepik) does not endorse my use of the icon; icon was used as a button to go to the notifications page
+
+plus-and-minus.png is downloaded from https://www.flaticon.com/free-icons/add; Free for personal and commercial purpose with attribution; no changes were made
+the licensor (Vaadin) does not endorse my use of the icon; icon was used as a button to go to the add or remove accounts page
+
+settings.png is downloaded from https://www.flaticon.com/free-icons/gear; Free for personal and commercial purpose with attribution
+no changes were made; the licensor (Freepik) does not endorse my use of the icon; icon was used as a button to go to the settings page

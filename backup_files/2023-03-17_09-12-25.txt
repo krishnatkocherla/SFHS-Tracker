@@ -1,0 +1,51 @@
+TABLE: admin_notifications
+COLUMNS: (sender) (subject) (body) 
+
+TABLE: adminlogin
+COLUMNS: (id) (name) (password) (email) 
+(123167, 'Krishna Kocherla', 'demopass', 'krishnatkocherla@gmail.com')
+
+TABLE: awards
+COLUMNS: (award_type) (award) (threshold) 
+('food', 'Donut', 30)
+('school', 'Letter', 15)
+('spirit', 'SFHS Shirt', 50)
+
+TABLE: events
+COLUMNS: (name) (day) (start_time) (end_time) (location) (point_value) 
+('Creekview Tennis Game', datetime.date(2023, 3, 26), datetime.timedelta(seconds=57600), None, 'Creekview HS', 5)
+('Denmark Tennis Game', datetime.date(2023, 3, 25), datetime.timedelta(seconds=57600), None, 'Denmark HS', 5)
+('Duluth Tennis Game', datetime.date(2023, 3, 19), datetime.timedelta(seconds=57600), None, 'Duluth', 5)
+('Fashion Show', datetime.date(2023, 3, 19), datetime.timedelta(seconds=82800), None, 'SFHS Arts Center', 10)
+('Lambert Tennis Game', datetime.date(2023, 3, 20), datetime.timedelta(seconds=57600), None, 'Fowler Park', 5)
+
+TABLE: registered
+COLUMNS: (student_name) (event_name) 
+('Krishna Kocherla', 'FBLA SLC')
+('Krishna Kocherla', 'FBLA SLC End')
+('Krishna Kocherla', 'Spring Homecoming')
+
+TABLE: student_notifications
+COLUMNS: (recipient_id) (subject) (body) 
+(1, '', 'Sample Notification')
+(2, '', 'Sample Notification')
+(3, '', 'Sample Notification')
+(4, '', 'Sample Notification')
+(5, '', 'Sample Notification')
+(6, '', 'Sample Notification')
+(100, '', 'Sample Notification')
+(101, '', 'Sample Notification')
+(123167, '', 'Sample Notification')
+
+TABLE: studentlogin
+COLUMNS: (id) (name) (password) (email) (grade) (score) (award) 
+(1, 'John Doe', 'studpass', '9th1@gmail.com', 9, 32, 'Donut')
+(2, 'Fresh Man', 'studpass', '9th2@gmail.com', 9, 53, 'SFHS Shirt')
+(3, 'Theodore', 'studpass', '11th1@gmail.com', 11, 16, 'Letter')
+(4, 'Jay', 'studpass', '11th2@gmail.com', 11, 32, 'Donut')
+(5, 'Deepak', 'studpass', '12th1@gmail.com', 12, 15, 'None')
+(6, 'Paul', 'studpass', '12th2@gmail.com', 12, 49, 'Donut')
+(100, 'John Demo', 'JDpass', 'johndemo@gmail.com', 10, 0, 'None')
+(101, 'Demo Student', 'demopass', 'test@gmail.com', 10, 0, 'None')
+(123167, 'Krishna Kocherla', 'studpass', 'krishnatkocherla@gmail.com', 10, 0, 'None')
+
